@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`To test Highscore component matches snapshot 1`] = `"<div><h2>Highscore List</h2><ul></ul></div>"`;

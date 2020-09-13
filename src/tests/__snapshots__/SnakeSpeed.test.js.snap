@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the SnakeSpeed component matches snapshot 1`] = `"<div class=\\"dropdown\\"><button data-testid=\\"snakespeed\\" type=\\"button\\" class=\\"change__speed btn btn-outline-dark\\">Change speed</button><div class=\\"dropdown__content\\"><p class=\\"speed\\">Easy</p><p class=\\"speed\\">Moderate</p><p class=\\"speed\\">Hard</p><p class=\\"speed\\">Insane</p></div></div>"`;

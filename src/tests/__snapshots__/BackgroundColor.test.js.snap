@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the BackgroundColor component matches snapshot 1`] = `"<div class=\\"dropdown\\"><button data-testid=\\"backgroundcolor\\" type=\\"button\\" class=\\"change__background btn btn-outline-dark\\">Change background</button><div class=\\"dropdown__content\\"><p class=\\"bg__color\\">Black</p><p class=\\"bg__color\\">White</p><p class=\\"bg__color\\">Grey</p></div></div>"`;

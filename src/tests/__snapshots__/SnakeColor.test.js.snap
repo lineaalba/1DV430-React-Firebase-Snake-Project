@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the SnakeColor component matches snapshot 1`] = `"<div class=\\"dropdown\\"><button data-testid=\\"snakecolor\\" type=\\"button\\" class=\\"change__color btn btn-outline-dark\\">Change snake color</button><div class=\\"dropdown__content\\"><p data-testid=\\"yellow\\" class=\\"snake__color\\">Yellow</p><p data-testid=\\"red\\" class=\\"snake__color\\">Red</p><p data-testid=\\"green\\" class=\\"snake__color\\">Green</p><p data-testid=\\"blue\\" class=\\"snake__color\\">Blue</p><p data-testid=\\"pink\\" class=\\"snake__color\\">Pink</p></div></div>"`;

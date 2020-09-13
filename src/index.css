@@ -1,0 +1,194 @@
+html, body {
+  height:100%;
+}
+.name {
+  padding-bottom: 7px;
+  margin: 5px;
+  padding-left: 5px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.nickname {
+  font-weight:bold;
+  font-size:larger;
+  margin-top:20px;
+  text-align: center;
+  display:none;
+}
+
+.game__area {
+  touch-action:none;
+  position:relative;
+  margin:auto;
+  width:600px;
+  height:600px;
+  border:2px solid #151719;
+  background-color:#151719;
+  border-radius:4px;
+  margin-bottom:10px;
+}
+
+.score {
+  font-weight:bold;
+  font-size:larger;
+  margin-top:20px;
+  text-align: center;
+}
+
+.snake__menu {
+  text-align:center;
+}
+
+.btn__0, .btn__1, .btn__2, .btn__3 {
+  width:200px;
+  margin: auto;
+}
+
+.menu__btns {
+  width:800px;
+  margin:0 auto;
+  height:100%;
+  display:grid;
+}
+
+.start__btn {
+  margin:0 auto;
+  visibility: visible;
+}
+
+.level {
+  display:inline;
+  padding:10px;
+  font-weight: bold;
+  border-radius: 2px;
+  background: #161915;
+  color: #3eee09;
+}
+
+.players__list {
+  font-size: x-large;
+}
+
+.highscore__list {
+  font-size: x-large;
+  list-style-type:none;
+}
+
+.watch {
+  margin: 5px;
+  align-items: center;
+  display: grid;
+}
+
+.change__color {
+  margin: 5px;
+  align-items: center;
+  display: grid;
+}
+
+.change__speed {
+  margin: 5px;
+  align-items: center;
+  display: grid;
+}
+
+.change__background {
+  margin: 5px;
+  align-items: center;
+  display: grid;
+}
+
+.player {
+  display: inline;
+  font-weight: bold;
+  background-color:#161915;
+  color: pink;
+  border-radius: 4px;
+  padding-bottom:2px;
+}
+
+.player__name {
+  display: inline;
+  margin:10px;
+}
+
+.score_ {
+  display: inline;
+  font-weight: bold;
+  background-color:#151719;
+  color: pink;
+  border-radius: 4px;
+  padding-bottom: 2px;
+}
+
+.score__value {
+  display: inline;
+  margin:18px;
+}
+
+.snake__dot {
+  position:absolute;
+  width:2%;
+  height:2%;
+  background-color:rgb(11, 184, 34);
+  z-index:2;
+  
+}
+
+.snake__food {
+  position:absolute;
+  z-index:1;
+  background-color:red;
+  border:1px solid #fff;
+  border-radius:10px;
+  width:2%;
+  height:2%;
+}
+
+.snake {
+  position:absolute;
+  width:6%;
+  height:100%;
+  background-image:url('./snake.png');
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown__content {
+  display: none;
+  position: absolute;
+  background-color:black;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #161915;
+  padding: 12px 16px;
+  z-index: 3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.dropdown:hover .dropdown__content {
+  display: block;
+  z-index: 3;
+}
+
+.bg__color:hover {
+  font-size: larger;
+}
+
+.speed:hover {
+  font-size: larger;
+}
+
+.snake__color:hover {
+  font-size: larger;
+}
+
+@media screen and (max-width:360px) {
+  .game__area {width:350px;height:350px;}
+}

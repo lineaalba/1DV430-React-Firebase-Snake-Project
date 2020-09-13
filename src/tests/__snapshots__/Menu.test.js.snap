@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests the Menu component matches snapshot 1`] = `"<div class=\\"menu__btns\\"><div><h1 class=\\"snake__menu\\">Snake Menu</h1><br/></div><button data-testid=\\"play\\" type=\\"button\\" class=\\"btn__0 btn btn-outline-dark\\">Start Game</button><br/><button data-testid=\\"players\\" type=\\"button\\" class=\\"btn__1 btn btn-outline-dark\\">Players online</button><br/><button data-testid=\\"highscore\\" type=\\"button\\" class=\\"btn__3 btn btn-outline-dark\\">Highscore</button></div>"`;
